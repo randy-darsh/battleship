@@ -1,0 +1,2 @@
+class BattleshipTest
+end
