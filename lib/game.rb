@@ -15,7 +15,7 @@ class Game
     if (response != 'p') && (response != 'q') && (response != 'i')
       puts "Please choose (p), (q) or (i)"
     end
-    response
+    self.get_player_game_choice
   end
 
   def self.instructions
