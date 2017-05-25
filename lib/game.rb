@@ -13,9 +13,8 @@ class Game
     response = gets.chomp
 
     if (response != 'p') && (response != 'q') && (response != 'i')
-      response = nil
+      puts "Please choose (p), (q) or (i)"
     end
-
     response
   end
 

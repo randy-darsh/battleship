@@ -1,2 +1,2 @@
-module Board
-  class ComputerBoard
+class ComputerBoard
+end

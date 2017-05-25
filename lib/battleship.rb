@@ -4,7 +4,7 @@
 require_relative 'game'
 # require './test/battleship_test.rb'
 
- class Battleship #< Minitest::Test
+ class Battleship # < Minitest::Test
 
 
   intro_input = Game.intro
