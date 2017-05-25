@@ -4,8 +4,12 @@ class Board
   attr_reader :grid, :draw
 
   def initialize
-    @grid = [[".", ".", ".", "."], [".", ".", ".", "."], [".", ".", ".", "."], [".", ".", ".", "."]]
-    @ship_1 = ship_1
+    @grid = [[".", ".", ".", "."],
+             [".", ".", ".", "."],
+             [".", ".", ".", "."],
+             [".", ".", ".", "."]]
+
+    # @ship_1 = ship_1
   end
 
   def draw
@@ -22,5 +26,13 @@ class Board
     formatted_board += "D " + grid[3].join(" ") + "\n"
     formatted_board += "==========="
   end
+
+  # def ship_1
+    # takes 2 spots
+  # end
+
+  # def ship_2
+    # takes 3 spots
+  # end
 
 end

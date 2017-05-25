@@ -1,0 +1,2 @@
+module Board
+  class ComputerBoard

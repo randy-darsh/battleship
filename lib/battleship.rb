@@ -9,6 +9,10 @@ require_relative 'game'
 
   intro_input = Game.intro
 
+  # if intro_input =='p'
+    # code for play condition
+  # end
+
   if intro_input == 'q'
     abort
   end

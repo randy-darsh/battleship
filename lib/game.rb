@@ -23,7 +23,7 @@ class Game
     puts "\nThis game is so legit,"
     puts "you should always play with"
     puts "a friend so you don't get"
-    puts "depressed\n\n"
+    puts "depressed.\n\n"
   end
 
 end
